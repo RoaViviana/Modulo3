@@ -1,0 +1,12 @@
+{
+    "name":"Viviana Roa",
+    "backImage":"assets/imagenes/portadaportfolio.jpg",
+    "position":"Full stack developer junior",
+    "school":{
+        "name":"Argentina Programa, Oracle Next Education",
+        "url":"#"
+    },
+    "ubicacion":"Buenos Aires (Argentina)"
+
+
+}

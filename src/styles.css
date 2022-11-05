@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    background: rgb(235, 241, 247);
+}
+
+:root {
+    --main-color: white;
+}
+
+.bg {
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    filter: blur(6px);
+}
+
+.bg-text {
+    color: var(--main-color);
+    font-weight: bold;
+    border: 3px solid pink;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-family: "Rubik Mono One";
+}
+
+.custom-section {
+    padding: 50px;
+}
+
+.cb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-text {
+    font-family: "New Tegomin";
+}
+
+footer {
+    background: black;
+    padding: 20px 0;
+    color: var(--main-color);
+    margin-top: 40px;
+}
+
+.home {
+    background-image: url(assets/imagenes/portadaportfolio.jpg);
+}
